@@ -1,16 +1,12 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) 27: Forms and Props
 ===
 
-## Submission Instructions
-* Follow the instructions in the "Lab Instructions" documentation in the reference folder of the class repository 
-  
-## Learning Objectives  
-* Students will learn to manage controlled inputs
-* Students will learn to pass data from parent to child through props
+## links
+* PR https://github.com/annaboyatyuk/27-forms-and-props/pull/1
 
-## Requirements  
- 
-#### Feature Tasks 
+## description
+
+
 Create the following components and structure them according to the following diagram 
 ```
 App
@@ -27,7 +23,7 @@ App
 * should contain a number input for the user to limit the number of results to return 
   * the number must be more than 0 and less than 100
   * `onSubmit` the form should make a request to reddit 
-  * it should make a get request to `https://wwwreddit.com/r/${searchFormBoard}.json?limit=${searchFormLimit}`
+  * it should make a get request to `https://www.reddit.com/r/${searchFormBoard}.json?limit=${searchFormLimit}`
   * on success it should pass the results to the application state
   * on failure it should add a class to the form called error and turn the form's inputs borders red
 
@@ -40,8 +36,3 @@ App
     * inside the anchor a heading tag with the topic.title 
     * inside the anchor a p tag with the number of topic.ups 
 
-#### Test
-* no testing today
-
-#### Documentation  
-Write a description of the project in your README.md
