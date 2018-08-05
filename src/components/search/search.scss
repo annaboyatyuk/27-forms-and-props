@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(207, 193, 193);
+  background-color: rgb(245, 240, 240);
 }
 
 form {
@@ -15,4 +15,11 @@ input {
   display: flex;
 }
 
+ul {
+  list-style: none;
+  width: 900px;
+}
 
+li {
+  background-color: rgb(255, 218, 218);
+}
